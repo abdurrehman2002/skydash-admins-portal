@@ -32,7 +32,285 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo img {
+  width: 150px;
+  margin-top: 5px;
+
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.DropdownWrapper {
+  display: flex;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.Profileicons i:hover {
+  background-color: #336cfb;
+  color: white;
+}
+
+.profileText:hover {
+  color: #336cfb;
+}
+
+.Profileicons i {
+  background-color: #e8e8e8;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.headerProfileImg img {
+  width: 35px;
+  height: 35px;
+}
+
+.DropdownToggle {
+  width: 20px;
+  background: none;
+  color: black;
+  border: none;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.DropdownToggleNotification i {
+  font-size: 30px;
+  margin-top: 5px;
+  color: #6c757d;
+}
+
+.DropdownToggleNotification {
+  width: 20px;
+  background: none;
+  color: #6c757d;
+  border: none;
+  padding: 0px;
+  margin-right: 20px;
+  text-align: center;
+  /* padding-top: 20px; */
+}
+
+.DropdownToggleNotification::after {
+  display: none;
+}
+
+.HeaderNotifications {
+  margin-right: 20px;
+}
+
+.NotificationDropdownHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NotificationDropdownHeading h2 {
+  font-size: 18px;
+}
+
+.NotificationDropdownHeading p {
+  font-size: 12px;
+  cursor: pointer;
+  color: red;
+}
+
+.notification:hover {
+  color: #336cfb;
+}
+
+.notification {
+  display: flex;
+}
+
+.Notificatonicons i:hover {
+  color: white;
+  background-color: #336cfb;
+}
+
+.Notificatonicons i {
+  color: white;
+  background-color: #336cfb;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.notificationText p {
+  margin-left: 15px;
+  padding: 0;
+  font-size: 10px;
+  opacity: 80%;
+}
+
+.notificationText:hover {
+  color: #336cfb;
+}
+
+.notificationText {
+  font-size: 12px;
+}
+
+.SideNavDashboard {
+  color: #8a8a91;
+}
+
+.SideNavDashboard:hover {
+  color: white;
+  background-color: #4B49AC;
+  border-radius: 10px;
+}
+
+
+.SideNavDashboard i {
+  margin-right: 10px;
+  color: #8a8a91;
+}
+
+.SideNavLogin i {
+  margin-right: 10px;
+  color: #8a8a91;
+}
+
+.SideNavLogin {
+  color: #8a8a91;
+}
+
+.SideNavLogin:hover {
+  color: white;
+  background-color: #4B49AC;
+  border-radius: 10px;
+}
+
+
+.SideNavForms i {
+  margin-right: 10px;
+  color: #8a8a91;
+}
+
+.SideNavForms {
+  color: #8a8a91;
+}
+
+.SideNavForms:hover {
+  color: white;
+  background-color: #4B49AC;
+  border-radius: 10px;
+}
+
+.loginWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #F5F7FF;
+}
+
+.loginContentWrapper {
+  background-color: white;
+  padding: 20px;
+  margin: 100px 0;
+}
+
+.loginContentWrapper p {
+  font-size: 15px;
+}
+
+.loginInputs input {
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #3F3E91;
+  color: white;
+}
+
+.loginForm button:hover {
+  cursor: pointer;
+  background-color: #3F3E91;
+  color: white;
+}
+
+.form-check {
+  margin-bottom: 20px;
+
+}
+
+.form-check a {
+  margin-left: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.form-check a:hover {
+  text-decoration: underline;
+}
+
+.createAcount {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.createAcount a {
+  margin-left: 5px;
+}
+
+.dashboardHeading {
+  margin-top: 20px;
+}
+
+.dashboardHeading p {
+  margin-bottom: 20px;
+}
+
+.dashboardHeading p span {
+  color: #4B49AC;
+}
+
+.dashboardImage img {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+.DashboardCard {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  background-color: #4747A1;
+}
+
+
+
+
+.DashboardCardTitle {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.DashboardCardText {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.DashboardCardNumbers{
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.tableTr:hover{
+  color: #000;
+  background-color: #f1f1fa;
 }
